@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Selection page</title>
+<style>
+body
+{
+background-image:url("School.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center center;
+}
+header img
+{
+        width:10%;       
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: cover;
+       margin-left:10%;
+    }
+.flex-header
+{
+display:flex;
+align-items:center;
+height:20%;
+}
+.logo
+{
+position:absolute;
+height:100px;
+width:100px;
+margin-left:34vw;
+}
+h1
+{
+position:absolute;
+text-align:center;
+margin-left:41vw;
+}
+ .button-container
+{
+    display: flex;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+    gap: 20%;
+}
+
+.button {
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+border:5px solid red;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 200%;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color:Magenta;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="flex-header">
+<img src="Logo.png" class="logo">
+<h1>
+<font face="Algerian">
+Adarsha Secondary School
+</h1>
+</div>
+</header>
+<div class="button-container">
+        <a href="table.html" class="button">Students</a>
+        <a href="teachers.php" class="button">Teachers</a></nav>
+</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Buttons Table</title>
+    <style>
+        body {
+            background-image: url("School.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+        table {
+            border-collapse: collapse;
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        td {
+            border: none;
+            text-align: center;
+            padding: 10px;
+            color: black;
+        }
+        button {
+            padding: 15px 30px;
+            color: white;
+            background-color:  gray;
+            text-decoration: none;
+            border: 2px solid red;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 130%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><button class="btn-red" onclick="location.href='class1.php'">Class 1</button></td>
+            <td><button class="btn-green" onclick="location.href='class2.php'">Class 2</button></td>
+            <td><button class="btn-blue" onclick="location.href='class3.php'">Class 3</button></td>
+            <td><button class="btn-yellow" onclick="location.href='class4.php'">Class 4</button></td>
+            <td><button class="btn-purple" onclick="location.href='class5.php'">Class 5</button></td>
+        </tr>
+        <tr>
+            <td><button class="btn-red" onclick="location.href='class6.php'">Class 6</button></td>
+            <td><button class="btn-green" onclick="location.href='class7.php'">Class 7</button></td>
+            <td><button class="btn-blue" onclick="location.href='class8.php'">Class 8</button></td>
+            <td><button class="btn-yellow" onclick="location.href='class9.php'">Class 9</button></td>
+            <td><button class="btn-purple" onclick="location.href='class10.php'">Class 10</button></td>
+        </tr>
+    </table>
+</body>
+</html>
